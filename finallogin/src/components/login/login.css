@@ -1,0 +1,110 @@
+/*.login{
+    width: 400px;
+    background: white;
+    border: 1px solid #dddfe2 ;
+    box-shadow: 0 2px 4px rgb(0 0 0/10%),0 8px 16px rgb(0 0 0/10%);
+    border-radius:8px;
+    padding:1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.login> input{
+    border-radius:8 px;
+    border:2px solid white;
+    outline: none;
+    color: #1d2129;
+    margin:0.5rem 0;
+    padding:0.5rem 0.75rem;
+    width:92%;
+    font-size:1rem;
+
+}
+
+.login> .button{
+     background:turquoise;
+     border:1px solid  #1877f2;
+     color: white;
+     font-size: 1.25 rem;
+     padding: 0.5rem;
+     margin: 0.5rem 0;
+     border-radius: 8px;
+     outline: none;
+     cursor:pointer;
+
+}
+*{ background-color: rgb(117, 183, 209);
+    box-shadow: 12px 12px 20px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px;}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    font-family: 'Quicksand-Bold';
+    font-size: 30px;
+    color: rgb(10, 29, 66);
+    
+    margin-top: 20px;
+        color: white;
+        background-color: rgb(9, 23, 52);
+        border: solid 2px rgb(255, 255, 255);
+        width: 10%;
+        height: 25px;
+        border-radius: 30px;
+        font-size: 18px;
+        cursor: pointer;*/
+
+
+.login {
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 700px;
+    width: 80%;
+    height: 80%;
+    margin: 100px auto;
+    background: linear-gradient(90deg, rgb(64, 61, 79) 0%,     rgb(186, 221, 224) 100%);
+    border-radius: 25px;
+    color: cornsilk;
+    padding: 20px;
+    
+    
+}
+
+.login>.button {
+
+    border-radius: 25px;
+      width: 30%;
+      height: 40px;
+      font-size: 1.5rem;
+      color: rgb(251, 251, 251);
+      font-weight: 700;
+      background: rgb(6, 7, 7);
+      background: linear-gradient(90deg, rgb(40, 37, 61) 0%,     rgb(16, 39, 150) 100%);
+      border: 10px;
+      cursor: pointer;
+      transition: opacity 0.25s ease-out;
+      position: relative;
+      left: 170px;
+      padding: 1rem;
+        
+    }
+
+    input[type=text], input[type=password] {
+        width: 70%;
+        margin:0.5rem 0;
+    padding:0.5rem 0.75rem;
+        display: inline-block;
+        border:  solid 2px rgb(5, 12, 52);;
+        background: #f5f2f2;
+      }
+      
+      input[type=text]:focus, input[type=password]:focus {
+        background-color: rgb(79, 132, 179);
+        outline: none;
+      }
+      .button:hover {
+        opacity: 1;
+      }
+      
